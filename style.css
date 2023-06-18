@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+body .main-menu>li>a{
+    font-family: 'Roboto Slab', serif;
+}
+
+h4{
+    font-family: 'Roboto Slab', serif;
+}
+
+.section-slide {
+    padding-top: 120px; /* Khoảng cách phía trên slider */
+    padding-bottom: 100px; /* Khoảng cách phía dưới slider */
+}
+
+.wrap-slick1 {
+    margin-left: 40px; /* Khoảng cách bên trái slider */
+    margin-right: 40px; /* Khoảng cách bên phải slider */
+    max-height: 700px; /* Giới hạn chiều cao của slider */
+    overflow: hidden; /*Ẩn nội dung vượt quá chiều cao */
+}
+
+.item-slick1 {
+    background-size: cover; /* Hiển thị ảnh để phủ toàn bộ phần tử */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+
+.sec-banner .block1 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 85%;
+}
+
+.sec-banner .block1-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -20px; 
+}
+
+.sec-banner .block1-img img {
+    max-width: 75%;
+    max-height: 75%;
+    width: auto;
+    height: auto;
+    margin-top: -40px; 
+}
+
+.sec-banner .block1 .block2-txt {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec-banner .block1 .block2-txt h3  {
+    color: #000000;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#do-rong {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    height: 300px;
+    
+}
+
+
+#txt{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.no-style {
+    text-decoration: none;
+    color: inherit;
+   
+}
+
+
+
